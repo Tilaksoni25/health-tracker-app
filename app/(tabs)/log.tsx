@@ -15,8 +15,8 @@ export default function LogActivity() {
     }
 
     const activity = {
-      type: type.toLowerCase(),   // 🔑 REQUIRED
-      value: Number(value),       // 🔑 REQUIRED
+      type: type.toLowerCase(),
+      value: Number(value),
       notes,
       date: new Date().toISOString(),
     };
